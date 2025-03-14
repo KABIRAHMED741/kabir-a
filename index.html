@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="music" loop>
+        <source src="Perfect-(Mr-Jat.in).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1 class="fade-in">Happy Anniversary, Adity ❤</h1>
+        <p class="fade-in"> <h2>🔹If I had to choose between breathing and loving you, I use my last breath to say I love you..</h2></p>
+
+        <button onclick="showMessage()">Click for a Surprise</button>
+      <h2><p id="hiddenMessage">You are the best thing that ever happened to me!
+            "My love for you grows stronger with every heartbeat."
+            No matter where I go, my heart always finds its way back to you.<br>
+             I never knew what true love was until I met you..
+             Even in my dreams, I find myself falling deeper in love love with you...❤ </p></h2>
+
+        <button onclick="playMusic()">Play Music</button>
+
+        <div class="photo-gallery">
+            <h2>some precious time with u</h2>
+            <div class="slideshow-container">
+                <div class="slides fade">
+                    <img src="WhatsApp Image 2025-03-14 at 19.52.06_1faeb1e3.jpg" alt="Photo 1">
+                </div>
+                <div class="slides fade">
+                    <img src="WhatsApp Image 2025-03-14 at 19.52.07_58adc0e3.jpg" alt="Photo 2">
+                </div>
+                <div class="slides fade">
+                    <img src="WhatsApp Image 2025-03-14 at 19.52.07_ce2f83e8.jpg" alt="Photo 3">
+             
+            <div class="dots-container">
+                <span class="dot" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+                <span class="dot" onclick="setSlide(2)"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
